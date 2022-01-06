@@ -1,1 +1,6 @@
-fdafd
+---
+- hosts: linux
+  tasks:
+     - name: "test"
+       shell: ls /root/
+
